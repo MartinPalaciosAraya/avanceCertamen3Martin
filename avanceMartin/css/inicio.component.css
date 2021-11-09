@@ -1,0 +1,118 @@
+.borde {
+  list-style-type: none;
+  background: #e2e2e2;
+}
+
+.noticiasDestacadas {
+  width: 450px;
+  height: 600px;
+}
+
+.noticiasDestacadas img {
+  width: 450px;
+  height: 280px;
+}
+
+.noticias {
+  width: 200px;
+  height: 500px;
+}
+
+.noticias img {
+  width: 200px;
+  height: 260px;
+}
+
+.noticiasDestacadas h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.noticiasDestacadas p {
+  text-align: center;
+}
+
+.noticias p {
+  text-align: center;
+}
+
+.noticias h2 {
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+}
+
+button {
+  margin: -20px -50px;
+  position: relative;
+  left: 50%;
+  top: -60px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#background {
+  width: 100%;
+  height: 350px;
+}
+
+.verde {
+  color: white;
+  background: green;
+}
+
+.azul {
+  background: blue;
+  color: white;
+}
+
+.rojoOscuro {
+  color: white;
+  background: #501313;
+}
+
+.violeta {
+  color: white;
+  background: #a220a7;
+}
+
+.azulOscuro {
+  color: white;
+  background: #1a1a4d;
+}
+
+.rojo {
+  color: white;
+  background: red;
+}
+
+.verdeletra {
+  color: green;
+}
+
+.azulletra {
+  color: blue;
+}
+
+.rojoOscuroletra {
+  color: #501313;
+}
+
+.violetaletra {
+  color: #a220a7;
+}
+
+.azulOscuroletra {
+  color: #1a1a4d;
+}
+
+.rojoletra {
+  color: red;
+}
+/*# sourceMappingURL=inicio.component.css.map */

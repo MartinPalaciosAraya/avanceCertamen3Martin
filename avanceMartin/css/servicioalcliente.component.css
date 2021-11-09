@@ -1,0 +1,50 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-register {
+  width: 400px;
+  background: #99adbd;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 52px;
+  text-align: center;
+  font-family: 'calibri';
+}
+
+.form-control {
+  width: 100%;
+  background: #6f7b84;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #8293a0;
+  font-family: 'calibri';
+  font-size: 18px;
+  border-color: white;
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=servicioalcliente.component.css.map */

@@ -1,0 +1,18 @@
+.noticias {
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+  color: grey;
+  margin: 20px;
+}
+
+.linea {
+  border-bottom: 1px solid grey;
+}
+
+.copy {
+  text-align: center;
+  color: grey;
+  margin: 2px;
+}
+/*# sourceMappingURL=footer.component.css.map */

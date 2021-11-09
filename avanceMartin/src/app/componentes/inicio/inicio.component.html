@@ -1,0 +1,28 @@
+<!--vista card-->
+<div>
+  <ul>
+    <li>
+      <div class="borde" *ngFor= "let noticia of ListaNoticias">
+
+            <div id="persona">
+                <span class="material-icons md-48">perm_identity </span>
+                <div id="nombre">
+                  <p>{{noticia.nombre}} {{noticia.apellido}} </p>
+                  <br>
+                  <br>
+                </div>
+
+                <div id="ubicacion">
+                  <br>
+                  <p>{{noticia.pais}} {{noticia.ciudad}}</p>
+                </div>
+
+
+
+
+          </div>
+      </div>
+    </li>
+
+  </ul>
+</div>

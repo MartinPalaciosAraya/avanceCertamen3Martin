@@ -1,0 +1,41 @@
+.margen{
+  margin-left: 50px;
+}
+h1{
+  font-size: 80px;
+}
+.material-icons.md-48{
+  color:black;
+  font-size:180px ;
+  position: relative;
+  top: 60px;
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+
+}
+ul{
+  padding: 10px;
+}
+
+ul li a{
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 25px 10px 25px;
+
+}
+ul li a:hover{
+
+  color:rgb(24, 174, 211);
+}
+.material-icons.md-dark {
+  color:black;
+  font-size:50px ;
+  position:relative;
+  top: 13px;
+ }
+

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACH,KAAK,EAAE,GAAG;CACX;;AAED,AAAA,KAAK,CAAA;EACH,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "../src/app/componentes/detalle-noticia/detalle-noticia.component.scss"
+    ],
+    "names": [],
+    "file": "detalle-noticia.component.css"
+}

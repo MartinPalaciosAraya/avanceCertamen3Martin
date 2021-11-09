@@ -1,0 +1,15 @@
+<h2 [ngClass]="{
+    'verdeletra': Noticia.categoria == 'Entretenimiento',
+    'azulletra': Noticia.categoria== 'Mundo',
+    'rojoOscuroletra': Noticia.categoria=='Deporte',
+    'violetaletra': Noticia.categoria=='Economia',
+    'azulOscuroletra': Noticia.categoria=='Salud',
+    'rojoletra': Noticia.categoria=='Tecnologia'
+    }">{{Noticia.categoria}}</h2>
+<h2>{{Noticia.titulo}}  <span [ngClass]="{azul: Categoria.color=='blue',rojo:Categoria.color=='red'}" > {{Categoria.titulo}} </span> </h2>
+<img src='{{Noticia.imagen}}' alt='{{Noticia.imagen}}'>
+<p>{{Noticia.texto}}</p>
+
+<p>{{Noticia.masinfo}}</p>
+
+Autor: {{Noticia.autor}} || Fecha: {{Noticia.fecha}}

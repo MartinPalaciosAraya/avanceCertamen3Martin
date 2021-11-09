@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/app/noticias/noticias.component.scss"
+    ],
+    "names": [],
+    "file": "noticias.component.css"
+}

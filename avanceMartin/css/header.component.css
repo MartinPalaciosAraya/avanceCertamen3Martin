@@ -1,0 +1,37 @@
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+ul {
+  background-color: #393e4b;
+  text-align: center;
+  padding: 10px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 25px 10px 25px;
+}
+
+ul li a:hover {
+  background-color: #858686;
+}
+
+#init {
+  border: 1px solid gray;
+  margin-right: 20px;
+}
+
+#news {
+  border: 1px solid gray;
+  margin-right: 20px;
+}
+
+#servicio {
+  border: 1px solid gray;
+}
+/*# sourceMappingURL=header.component.css.map */

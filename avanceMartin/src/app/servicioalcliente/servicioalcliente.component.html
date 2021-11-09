@@ -1,0 +1,104 @@
+<div class="body">
+
+    <div *ngIf="!activarMsg">
+
+        <form [formGroup]="formulario" (ngSubmit)="mandarObjeto()"  (ngSubmit)="validacion()" </form> class="form-register" >
+
+          <ul>
+            <li>
+                <label>Nombres</label>
+                <input type="text" class="form-control" formControlName="nombre"  id="place">
+                <div *ngIf="formulario.controls['nombre'].invalid && (formulario.controls['nombre'].dirty || formulario.controls['nombre'].touched)" class="alert alert-danger">
+                    <div *ngIf="formulario.controls['nombre'].hasError('required')">
+                      Campo obligatorio
+                    </div>
+
+                  <div *ngIf="formulario.controls['nombre'].hasError('maxlength')">
+                    El máximo de caracteres es 30
+                  </div>
+
+                </div>
+            </li>
+
+            <li>
+              <label>Apellidos</label>
+              <input type="text" class="form-control" formControlName="apellido"  id="place">
+              <div *ngIf="formulario.controls['apellido'].invalid && (formulario.controls['apellido'].dirty || formulario.controls['apellido'].touched)" class="alert alert-danger">
+                  <div *ngIf="formulario.controls['apellido'].hasError('required')">
+                    Campo obligatorio
+                  </div>
+
+                <div *ngIf="formulario.controls['apellido'].hasError('maxlength')">
+                  El máximo de caracteres es 30
+                </div>
+
+              </div>
+          </li>
+
+             <li>
+              <label>Genero</label> <br>
+
+              <input type="radio"  id="opcion1" name="radio1" value="1">Mujer <br>
+              <input type="radio" id="opcion1" name="radio1" value="2">Hombre <br>
+              <input type="radio" id="opcion1" name="radio1" value="3">Otro
+
+
+            </li>
+
+
+            <li>
+              <p>País</p>
+              <select name="select" class="form-control" formControlName="Pais" >
+                <option value="2">Chile</option>
+                <option value="3" >Argentina</option>
+                <option value="4">Perú</option>
+                <option value="5"> Bolivia</option>
+
+              </select>
+
+            </li>
+
+            <li>
+              <label>Ciudad</label>
+              <input type="text" class="form-control" formControlName="ciudad"  id="place">
+              <div *ngIf="formulario.controls['ciudad'].invalid && (formulario.controls['ciudad'].dirty || formulario.controls['ciudad'].touched)" class="alert alert-danger">
+                  <div *ngIf="formulario.controls['ciudad'].hasError('required')">
+                    Campo obligatorio
+                  </div>
+
+                <div *ngIf="formulario.controls['ciudad'].hasError('maxlength')">
+                  El máximo de caracteres es 15
+                </div>
+
+              </div>
+          </li>
+
+
+          <div id="BOTONES">
+
+
+              <li>
+                <button type="reset" class="btn btn-danger"> Cancelar</button>
+              </li>
+
+                <li>
+                  <button type="submit" class="btn btn-success" [disabled]="!formulario.valid" >Enviar Datos</button>
+                </li>
+
+          </div>
+
+                          <!-- btn btn-success-->
+
+            <!--<li>
+                <p>El boton "Enviar Datos" está deshabilitado hasta que completes todos los campos</p>
+            </li>-->
+          </ul>
+        </form>
+    </div>
+
+    <div *ngIf="activarMsg">
+        Hemos recibido tus datos!
+    </div>
+
+            <script>var exports={};</script>
+</div>

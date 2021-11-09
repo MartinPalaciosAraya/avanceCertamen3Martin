@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AACD,AAAA,MAAM,CAAA;EACF,aAAa,EAAE,cAAc;CAChC;;AACD,AAAA,KAAK,CAAA;EACD,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;CACd",
+    "sources": [
+        "../src/app/footer/footer.component.scss"
+    ],
+    "names": [],
+    "file": "footer.component.css"
+}

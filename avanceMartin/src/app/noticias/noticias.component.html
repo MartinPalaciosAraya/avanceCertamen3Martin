@@ -1,0 +1,19 @@
+<table class="lista"  >
+  <thead>
+    <tr>
+      <th  class="info">Nombre Completo</th>
+      <th  class="info">Genero</th>
+      <th  class="info">Pais</th>
+      <th  class="info">Ciudad</th>
+    </tr>
+  </thead>
+</table>
+<table class="listaPersonas" *ngFor= "let noticia of ListaNoticias">
+  <ul>
+      <li>{{noticia.nombre}} {{noticia.apellido}}</li>
+      <li>{{noticia.genero}}</li>
+      <li>{{noticia.pais}}</li>
+      <li>{{noticia.ciudad}}</li>
+  </ul>
+
+</table>
